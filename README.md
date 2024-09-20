@@ -22,5 +22,6 @@ Automappy is inspired by [AutoMapper](https://github.com/AutoMapper/AutoMapper/t
 
 - [ ] Handle classes
 - [ ] Mapper Configuration (allow to customize mappings)
+- [ ] ReadTheDocs documentation
 - [ ] Execution plan
   - Runnable execution tree
