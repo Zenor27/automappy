@@ -10,7 +10,6 @@ on:
 
 jobs:
   run-tests:
-    name: python
     runs-on: ubuntu-latest
 
     steps:
