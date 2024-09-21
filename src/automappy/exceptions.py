@@ -14,3 +14,12 @@ class ObjectMapperNotFoundError(ValueError):
     def __init__(self, tp: TypePair):
         self.tp = tp
         super().__init__(f"Object mapper not found for type pair '{tp}'")
+
+
+class MissingFieldsError(ValueError):
+    def __init__(self, tp: TypePair, missing_fields: list[str]):
+        self.tp = tp
+        self.missing_fields = missing_fields
+        super().__init__(
+            f"Cannot map type pair '{tp}'. Missing fields: {missing_fields}"
+        )

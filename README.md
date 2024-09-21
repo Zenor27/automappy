@@ -20,7 +20,6 @@ Automappy is inspired by [AutoMapper](https://github.com/AutoMapper/AutoMapper/t
 
 ## TODO
 
-- [ ] Handle classes
 - [ ] Mapper Configuration (allow to customize mappings)
 - [ ] ReadTheDocs documentation
 - [ ] Execution plan

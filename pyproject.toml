@@ -1,6 +1,6 @@
 [project]
 name = "automappy"
-version = "0.1.0"
+version = "0.1.1"
 description = "A convention-based object-object mapper in Python."
 
 readme = "README.md"
